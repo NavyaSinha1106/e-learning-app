@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SignUp from "./Components/SignUp";
+import HomePage from "./Components/HomePage";
+import Login from "./Components/Login";
+import About from "./Components/About";
+import Contact from "./Components/Contact Us";
+import Dashboard from "./Components/Dashboard";
 
 function App() {
+  const user = localStorage.getItem("token");
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+            <Route exact path="/" element={<HomePage/>} />
+            <Route exact path="/homepage" element={<HomePage />} />
+            <Route path="signup" element={<SignUp />} />
+            <Route path="login" element={<Login />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            {user && <Route path="/" exact element={<Dashboard/>} />}
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

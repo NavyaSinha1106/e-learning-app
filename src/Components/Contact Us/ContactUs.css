@@ -1,0 +1,25 @@
+.contact1{
+    margin: 0;
+    padding: 4em;
+    padding-bottom: 2em;
+    font-size: 2em;
+}
+
+.contact-container h2{
+    text-align: center;
+}
+
+.contact-container p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+img{
+    height: 100%;
+    width: 60%;
+}
+
+.contact-container{
+    display: flex;
+}

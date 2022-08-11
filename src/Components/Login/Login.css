@@ -1,0 +1,59 @@
+.heading{
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: .02rem;
+    font-size: 1.6em;
+    border-bottom: 1px solid #b9bec2;
+    padding-bottom: 1em;
+}
+
+.login-card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 15px;
+    width: 30%;
+}
+
+input{
+    margin: 0.7em;
+    border: 1px solid black;
+    height: 3em;
+    width: 20em;
+    padding: 0.5em;
+}
+
+.login-btn{
+    margin: 0.7em;
+    background-color: rgb(12, 12, 97);
+    color: beige; 
+    padding: 15px 32px;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    font-size: 1em;
+    white-space: nowrap;
+    width: 17.5em;
+}
+
+.login-btn:hover{
+    background-color: rgb(9, 9, 75); 
+    color: beige;
+    width: 17.5em;
+  }
+
+p{
+    font-size: 0.9em;
+}
+
+.line{
+    width: 20em;
+    border-top: 1px solid #b9bec2;
+}
+
+.signup1{
+    padding-left: 0.5em;
+    font-weight: 1000;
+    text-decoration: underline;
+}

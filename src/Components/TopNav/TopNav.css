@@ -1,0 +1,42 @@
+.logo {
+    font-size: 2em;
+    font-weight: 1000;
+    color: rgb(9, 9, 75);
+    text-decoration: none;
+    padding-left: 1em;
+    padding-top: 0.2em;
+}
+
+.top-nav{
+    box-shadow: 1px 1px 3px gray, 1px 1px 3px gray;
+    position: absolute;
+    height: 7%;
+    min-width: 100%;
+    background-color: white;
+}
+
+.nav-content{
+    padding-left: 60em;
+}
+
+.nav-content,.logo{
+    display: inline;
+}
+
+.signup,.about,.contact,.login{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(9, 9, 75);
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+}
+
+.signup:hover,.about:hover,.contact:hover,.login:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: rgb(5, 5, 146);
+    color: beige;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.5em;
+}
