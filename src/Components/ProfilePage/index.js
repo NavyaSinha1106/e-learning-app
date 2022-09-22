@@ -39,10 +39,10 @@ function ProfilePage() {
       <TopNav />
       <div className="UserCard">
         <div className="User">
-          <div className="UserImage">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHAdyiPYpjwlxEP5peE87DlotUGOsfyJzYSw&usqp=CAU"></img>
-          </div>
           <div className="UserInformation">
+            <div className="UserImage">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHAdyiPYpjwlxEP5peE87DlotUGOsfyJzYSw&usqp=CAU"></img>
+            </div>
             <div className="UserTitle">
               <h1>Username: {users.fullName}</h1>
               <h3>E-mail: {users.email}</h3>

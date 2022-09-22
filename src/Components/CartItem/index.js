@@ -41,10 +41,8 @@ function CartItem({ productArray, setProductArray }) {
             <img src={items.courseImg}></img>
           </div>
           <div className="CartInformation">
-            <div className="CartTitle">
-              <h3>{items.courseName}</h3>
-            </div>
             <div className="CartDesc">
+              <h3>{items.courseName}</h3>
               <p>{items.courseDesc}</p>
               <p>{items.courseDate}</p>
               <p>
@@ -78,7 +76,6 @@ function CartItem({ productArray, setProductArray }) {
   } else {
     sum = 0;
   }
-
   let order;
   order = total + sum;
 
@@ -96,7 +93,7 @@ function CartItem({ productArray, setProductArray }) {
           </p>
           <p className="Total">
             Order
-            Total:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Total:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             {`$`}
             {order}
           </p>

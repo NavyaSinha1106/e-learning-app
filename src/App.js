@@ -5,7 +5,6 @@ import HomePage from "./Components/HomePage";
 import Login from "./Components/Login";
 import About from "./Components/About";
 import Contact from "./Components/Contact Us";
-import Courses from "./Components/Courses";
 import ProfilePage from "./Components/ProfilePage";
 import Search from "./Components/Search";
 import { useState } from "react";
