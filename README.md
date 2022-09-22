@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# E-learning Platform Using MERN
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## MAIN GOAL
 
-## Available Scripts
+#### The main of this project was to built an e-learning platform in which the admin can create courses that are accessed by students.
 
-In the project directory, you can run:
+## TECHNOLOGIES: 
 
-### `npm start`
+In this project I have used these technologies : 
++ React js
++ Nodejs (Express js)
++ Mongo DB
++ CSS
++ React Router
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run this project you can simply type in the terminal : 
 
-### `npm test`
+```
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Preview
 
-### `npm run build`
++ Home Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/105153638/191822477-f63be609-c20c-46ae-b3e3-5e4ac346b970.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
++ Search
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot (371)](https://user-images.githubusercontent.com/105153638/191823102-01b97889-0be4-42a3-b1e4-ee61303c730b.png)
 
-### `npm run eject`
++ Course Card
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot (373)](https://user-images.githubusercontent.com/105153638/191823445-cf54208e-eb50-4184-8d51-0570a2299b41.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
++ About
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot (382)](https://user-images.githubusercontent.com/105153638/191824505-5d6524cd-102d-489a-a4ec-c6bafe08b1aa.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
++ Contact Us
 
-## Learn More
+![Screenshot (391)](https://user-images.githubusercontent.com/105153638/191828920-d6d212f5-8e5d-46b3-a1ea-adbf8208de04.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
++ Sign Up
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot (384)](https://user-images.githubusercontent.com/105153638/191824906-8c22917d-35e2-43f9-88ba-992543130be8.png)
 
-### Code Splitting
++ Login
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot (385)](https://user-images.githubusercontent.com/105153638/191825073-2d7bf308-64c8-4d5a-93a0-ecb72ba8b559.png)
 
-### Analyzing the Bundle Size
++ Profile
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Screenshot (395)](https://user-images.githubusercontent.com/105153638/191837187-4cecbd3b-19b5-4595-b7fc-c3410c5f4744.png)
 
-### Making a Progressive Web App
++ Add To Cart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Screenshot (387)](https://user-images.githubusercontent.com/105153638/191825346-8fd3194c-f57e-4ed0-81e8-dcf8572e3335.png)
 
-### Advanced Configuration
+![Screenshot (388)](https://user-images.githubusercontent.com/105153638/191825596-ef62585f-a802-4f45-981e-e13ae2382b68.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
++ Delete From Cart
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot (393)](https://user-images.githubusercontent.com/105153638/191836915-f3b7498a-3e0c-4394-a34c-e46a7f875649.png)
