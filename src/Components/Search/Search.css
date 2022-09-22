@@ -5,6 +5,7 @@
 .searchContainer{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .searchContainer input{
@@ -29,11 +30,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 .ResultCard {
-    margin-top: 4em;
     padding-left: 2em;
+    padding-top: 2em;
+    width: 50%;
+    
   }
 
 .Result {
@@ -41,6 +45,11 @@
     color: rgb(12, 12, 97);
     background-color: white;
   }
+
+.results-container{
+  margin-top: 4em;
+  width: 100%;
+}
 
 .ResultImage{
     display: flex;
