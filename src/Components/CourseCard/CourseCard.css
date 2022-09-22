@@ -1,0 +1,49 @@
+.CourseCard {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  }
+
+.Course {
+    width: 45%;
+    height: 45%;
+    border: 2px solid rgb(12, 12, 97);
+    box-shadow: 5px 10px 10px rgba(92, 89, 89, 0.884);
+    margin: 2em 2em 2em 0em;
+  }
+
+.CourseImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CourseImage img {
+    width: 100%; 
+    height: 100%;
+    padding: 1em;
+    margin: auto;
+  }
+  
+  .CourseInformation {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 1.5em;
+    padding-top: 0em;
+  }
+
+  .Add{
+    background-color: rgb(12, 12, 97);
+    color: beige; 
+    padding: 15px 32px;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    border-radius: 1.5em;
+    font-size: 1em;
+    white-space: nowrap;
+    width: 17.5em;
+    cursor: pointer;
+  }

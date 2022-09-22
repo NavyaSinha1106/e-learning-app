@@ -1,15 +1,17 @@
+import CourseCard from "../CourseCard";
+import Search from "../Search";
 import TopNav from "../TopNav";
 import "./HomePage.css";
 
-function HomePage() {
+function HomePage(props) {
   return (
     <>
-      <TopNav></TopNav>
+      <TopNav onAddToCart={props.onAddToCart} count={props.count}></TopNav>
       <div className="home-container">
         <p className="home-text">
           Learn new skills online<br></br> with top educators
-          <input className="search" type="text" placeholder="What do you want to learn? &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &#x1F50E;&#xFE0E;"></input>
-          </p>
+          <Search />
+        </p>
         <img
           className="image"
           src="https://international.humber.ca/assets/images/Home/globalsystemschallenge.jpg"
@@ -19,6 +21,10 @@ function HomePage() {
         <h3>A large selection of courses</h3>
         <p>Choose from courses with new courses published every month.</p>
       </div>
+      <CourseCard
+        productArray={props.productArray}
+        onAddToCart={props.onAddToCart}
+      ></CourseCard>
     </>
   );
 }

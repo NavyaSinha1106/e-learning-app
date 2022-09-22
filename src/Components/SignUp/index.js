@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import TopNav from "../TopNav";
 import "./SignUp.css";
-import axios from 'axios';
+import axios from "axios";
 
 function SignUp() {
   const [data, setData] = useState({
@@ -10,10 +10,10 @@ function SignUp() {
     email: "",
     password: "",
     phone: "",
-    work: ""
+    work: "",
   });
 
-  const [error,setError] = useState("");
+  const [error, setError] = useState("");
 
   const navigate = useNavigate();
 
@@ -21,7 +21,7 @@ function SignUp() {
     setData({ ...data, [input.name]: input.value });
   };
 
-  const handleSubmit = async(e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     let jsonData = JSON.stringify({
       fullName: data.fullName,
@@ -29,17 +29,21 @@ function SignUp() {
       password: data.password,
       phone: data.phone,
       work: data.work,
-    })
-    try{
-      console.log(data)
+    });
+    try {
       const url = "http://localhost:8080/api/users";
-      const res =  await axios.post(url,jsonData,{headers:{"Content-Type" : "application/json"}})
-      navigate("/login")
-      console.log(res.message)
-    }
-    catch(error){
-      if(error.response && error.response.status>=400 && error.response.status<=500){
-        setError(error.response.data.message)
+      const res = await axios.post(url, jsonData, {
+        headers: { "Content-Type": "application/json" },
+      });
+      navigate("/login");
+      console.log(res.message);
+    } catch (error) {
+      if (
+        error.response &&
+        error.response.status >= 400 &&
+        error.response.status <= 500
+      ) {
+        setError(error.response.data.message);
       }
     }
   };
@@ -97,11 +101,10 @@ function SignUp() {
               onChange={handleChange}
               required
             >
-              <option value="experience" defaultValue disabled hidden>
+              <option value="experience" defaultValue>
                 Work Experience{" "}
               </option>
               <option value="Student">Student</option>
-              <option value="Instructor">Instructor</option>
             </select>
             {error && <div className="error">{error}</div>}
             <button className="signup-btn">Sign Up</button>

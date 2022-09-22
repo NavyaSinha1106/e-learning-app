@@ -7,9 +7,10 @@ img{
 
 .about-container{
   overflow: hidden;
+  position: relative;
 }
 
-.top-left {
+.aboutPage-moto {
     position: absolute;
     top: 2em;
     left: 13em;

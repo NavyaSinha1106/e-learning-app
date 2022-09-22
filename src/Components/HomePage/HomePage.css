@@ -9,7 +9,8 @@ html,body {
 .home-container{
     background-color: rgb(9, 9, 75);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .image{
@@ -22,25 +23,14 @@ html,body {
 .home-text{
     color: beige;
     font-size: 2em;
-    margin-top: 8em;
-    margin-left: 10em;
-}
-
-.search{
-    margin-left: 0;
-    position: relative;
-    margin-top: 2em;
-    width: 95%;
-    border: 0ch;
-}
-
-.search::placeholder{
-    font-size: 1.1em;
+    margin-right: 7%;
+    margin-bottom: 7%;
 }
 
 .home-info{
     padding: 1em;
     text-align: center;
+    font-size: 1.1em;
 }
 
 .home-info h3{
@@ -51,4 +41,8 @@ html,body {
 
 .home-info p{
     font-size: 1.1em;
+}
+
+.search{
+    padding-top: 2em;
 }

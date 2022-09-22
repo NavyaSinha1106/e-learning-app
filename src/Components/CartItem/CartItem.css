@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+}
+
+.CartCard {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+  }
+
+.Cart {
+    width: 45%;
+    height: 45%;
+    border: 2px solid rgb(12, 12, 97);
+    box-shadow: 5px 10px 10px rgba(92, 89, 89, 0.884);
+    margin: 2em 2em 2em 0em;
+  }
+
+.CartImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CartImage img {
+    width: 100%; 
+    height: 100%;
+    padding: 1em;
+    margin: auto;
+  }
+  
+  .CartInformation {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 1.5em;
+    padding-top: 0em;
+  }
+
+  .Remove{
+    background-color: rgb(12, 12, 97);
+    color: beige; 
+    padding: 15px 32px;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    border-radius: 1.5em;
+    font-size: 1em;
+    white-space: nowrap;
+    width: 17.5em;
+    cursor: pointer;
+  }
+
+  .CartSummary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
+    padding-bottom: 10em;
+  }
+
+  .CartTotal{
+    width: 21%;
+    height: 30%;
+    border: 2px solid rgb(12, 12, 97);
+    box-shadow: 1px 10px 10px rgba(92, 89, 89, 0.884);
+    padding: 2em;
+  }
+  
+  .Summary{
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  .Total{
+    color: maroon;
+    font-weight: bold;
+    border-top: 2px dashed rgb(12, 12, 97);
+    border-bottom: 2px dashed rgb(12, 12, 97);
+    padding: 1.5em;
+  }

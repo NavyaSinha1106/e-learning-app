@@ -8,7 +8,7 @@ function About() {
       <TopNav />
       <div className="about-container">
         <img src="https://blog.bit.ai/wp-content/uploads/2020/09/people-using-digital-devices-modern-office_1262-19462-1.jpg"></img>
-        <div class="top-left">
+        <div className="aboutPage-moto">
           We share knowledge <br></br>with the world
         </div>
         <div className="band">
