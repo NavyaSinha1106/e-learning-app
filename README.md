@@ -2,7 +2,7 @@
 
 ## MAIN GOAL
 
-#### The main of this project was to built an e-learning platform in which the admin can create courses that are accessed by students.
+#### The main of this project was to build an e-learning platform in which the admin can create courses that are accessed by students.
 
 ## TECHNOLOGIES: 
 
